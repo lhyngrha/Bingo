@@ -22,7 +22,14 @@ namespace Bingo
 
         public void loadStackPanel()
         {
-            int x = Convert.ToInt32(slider.Value)*10;
+            int x = Convert.ToInt32(slider.Value) * 10;
+            StackPanel control = (StackPanel)FindName("stack0");
+            for (int i = 1; i < x; i++)
+            {
+
+            }
+            
+            /*int x = Convert.ToInt32(slider.Value)*10;
 
             StackPanel control = (StackPanel)FindName("stack0");
             for (int i = 1; i < 11; i++)
@@ -42,7 +49,9 @@ namespace Bingo
                         numero.Text = i.ToString();
                     }
                 }
-            }
+            }*/
+
+
             
         }
 
