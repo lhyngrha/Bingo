@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\POS\Bingo\Bingo\Bin\Debug\Bingo_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="28/07/16 23:33:29">
+﻿<xapCache source="C:\POS\Bingo\Bingo\Bin\Debug\Bingo_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="28/07/16 23:39:08">
   <file source="C:\POS\Bingo\Bingo\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="28/07/16 21:21:04" />
-  <file source="C:\POS\Bingo\Bingo\obj\Debug\Bingo.dll" archivePath="Bingo.dll" lastWriteTime="28/07/16 23:33:28" />
+  <file source="C:\POS\Bingo\Bingo\obj\Debug\Bingo.dll" archivePath="Bingo.dll" lastWriteTime="28/07/16 23:39:07" />
   <file source="C:\POS\Bingo\Bingo\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="28/07/16 20:20:55" />
   <file source="C:\POS\Bingo\Bingo\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="28/07/16 20:20:55" />
   <file source="C:\POS\Bingo\Bingo\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="28/07/16 20:20:55" />
@@ -23,6 +23,6 @@
   <file source="C:\POS\Bingo\Bingo\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="28/07/16 20:20:55" />
   <file source="C:\POS\Bingo\Bingo\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="28/07/16 20:20:55" />
   <file source="C:\POS\Bingo\Bingo\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="28/07/16 20:20:55" />
-  <file source="C:\POS\Bingo\Bingo\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="28/07/16 23:33:29" />
+  <file source="C:\POS\Bingo\Bingo\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="28/07/16 23:39:07" />
   <file source="C:\POS\Bingo\Bingo\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="28/07/16 21:21:04" />
 </xapCache>

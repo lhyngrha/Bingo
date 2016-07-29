@@ -51,7 +51,7 @@
             <Button x:Name="button" Content="New Gaime" HorizontalAlignment="Left" Margin="287,535,0,0" VerticalAlignment="Top" DoubleTap="button_DoubleTap" Click="button_Click"/>
 
             <Slider x:Name="slider" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="279" Maximum="10" Minimum="1" Value="1" SmallChange="1" ValueChanged="slider_ValueChanged"/>
-            <Button x:Name="btnSortear" Content="Sortear Bola" HorizontalAlignment="Left" Margin="1,124,0,0" VerticalAlignment="Top" Width="445" Click="btnSortear_Click"/>
+            <Button x:Name="btnSortear" Content="Sortear Bola" HorizontalAlignment="Left" Margin="1,124,0,0" VerticalAlignment="Top" Width="445" Click="btnSortear_Click" Hold="btnSortear_Hold"/>
             <Grid Height="30" Grid.Column="0" Background="#c9c9c9" Margin="0,221,0,356">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>

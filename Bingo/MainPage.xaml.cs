@@ -118,5 +118,26 @@ namespace Bingo
             }
             //loadStackPanel();
         }
+
+        private void btnSortear_Hold(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            if (primeiro)
+            {
+                numeros = new int[int.Parse(NBolas.Text)];
+                for (int i = 0; i < int.Parse(NBolas.Text); i++)
+                {
+                    numeros[i] = Convert.ToInt16(i);
+                }
+                primeiro = false;
+                slider.IsEnabled = false;
+            }
+            count++;
+            if (count != int.Parse(NBolas.Text) + 1)
+            {
+                int z = Random();
+                Remover(z);
+            }
+            else { MessageBox.Show("Cabou, boy"); btnSortear.IsEnabled = false; }
+        }
     }
 }
