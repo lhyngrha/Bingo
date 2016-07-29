@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="Transparent" Margin="2,0,-2,0">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -46,12 +46,12 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
+        <Grid x:Name="ContentPanel" Margin="14,138,10,23" Grid.RowSpan="2">
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Número de Bolas" VerticalAlignment="Top" FontSize="36"/>
-            <Button x:Name="button" Content="New Gaime" HorizontalAlignment="Left" Margin="287,535,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="txtNBolas" HorizontalAlignment="Left" Height="72" Margin="314,52,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="132" IsReadOnly="True"/>
-            <Slider x:Name="slider" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="279"/>
-            <Button x:Name="btnSortear" Content="Sortear Bola" HorizontalAlignment="Left" Margin="1,124,0,0" VerticalAlignment="Top" Width="445"/>
+            <Button x:Name="button" Content="New Gaime" HorizontalAlignment="Left" Margin="287,535,0,0" VerticalAlignment="Top" DoubleTap="button_DoubleTap" Click="button_Click"/>
+
+            <Slider x:Name="slider" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="279" Maximum="10" Minimum="1" Value="1" SmallChange="1" ValueChanged="slider_ValueChanged"/>
+            <Button x:Name="btnSortear" Content="Sortear Bola" HorizontalAlignment="Left" Margin="1,124,0,0" VerticalAlignment="Top" Width="445" Click="btnSortear_Click"/>
             <Grid Height="30" Grid.Column="0" Background="#c9c9c9" Margin="0,221,0,356">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -80,21 +80,23 @@
                 <TextBlock Text="9" TextAlignment="Center" Foreground="#7A7C79" FontWeight="Bold" Grid.Column="9"></TextBlock>
             </Grid>
             <Grid HorizontalAlignment="Left" Height="284" Margin="1,251,0,0" VerticalAlignment="Top" Width="455" Background="#FF898686">
-                <StackPanel x:Name="stack0"  HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack1" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack2" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack3" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack4" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack5" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack6" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack7" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack8" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
-                <StackPanel x:Name="stack9" HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack0"  HorizontalAlignment="Left" Height="284" VerticalAlignment="Top" Width="43" Margin="10,0,0,0"/>
+                <StackPanel x:Name="stack1" HorizontalAlignment="Left" Height="307" Margin="48,0,0,-23" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack2" HorizontalAlignment="Left" Height="307" Margin="91,0,0,-23" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack3" HorizontalAlignment="Left" Height="307" Margin="139,0,0,-23" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack4" HorizontalAlignment="Left" Height="307" Margin="187,0,0,-23" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack5" HorizontalAlignment="Left" Height="307" Margin="230,0,0,-23" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack6" HorizontalAlignment="Left" Height="307" Margin="273,0,0,-23" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack7" HorizontalAlignment="Left" Height="307" Margin="321,0,0,-23" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack8" HorizontalAlignment="Left" Height="307" Margin="369,0,0,-23" VerticalAlignment="Top" Width="43"/>
+                <StackPanel x:Name="stack9" HorizontalAlignment="Left" Height="307" Margin="417,0,0,-23" VerticalAlignment="Top" Width="38"/>
             </Grid>
-        </Grid>
-        
+            <TextBox x:Name="NBolas" HorizontalAlignment="Left" Height="72" Margin="284,58,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="162" IsReadOnly="True"/>
 
-        
+        </Grid>
+
+
+
         <!-- <Grid HorizontalAlignment="Left" Height="349" Margin="23,203,0,0" Grid.Row="1" VerticalAlignment="Top" Width="445" Background="#FF898686">
             <StackPanel HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
             <StackPanel HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
@@ -107,7 +109,7 @@
             <StackPanel HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
             <StackPanel HorizontalAlignment="Left" Height="307" Margin="0,32,0,0" VerticalAlignment="Top" Width="43"/>
         </Grid>-->
-        
+
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to

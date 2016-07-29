@@ -33,3 +33,38 @@ c:\users\20131011110398\documents\visual studio 2015\Projects\Bingo\Bingo\obj\De
 c:\users\20131011110398\documents\visual studio 2015\Projects\Bingo\Bingo\obj\Debug\ProjectArchitectures.txt
 c:\users\20131011110398\documents\visual studio 2015\Projects\Bingo\Bingo\obj\Debug\MDILProjectFiles.xml
 c:\users\20131011110398\documents\visual studio 2015\Projects\Bingo\Bingo\obj\Debug\XapCacheFile.xml
+C:\POS\Bingo\Bingo\Bin\Debug\Assets\ApplicationIcon.png
+C:\POS\Bingo\Bingo\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\POS\Bingo\Bingo\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\POS\Bingo\Bingo\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\POS\Bingo\Bingo\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\POS\Bingo\Bingo\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\POS\Bingo\Bingo\Bin\Debug\Bingo.dll
+C:\POS\Bingo\Bingo\Bin\Debug\Bingo.pdb
+C:\POS\Bingo\Bingo\Bin\Debug\resources.pri
+C:\POS\Bingo\Bingo\Bin\Debug\AppxManifest.xml
+C:\POS\Bingo\Bingo\Bin\Debug\Bingo.build.appxrecipe
+C:\POS\Bingo\Bingo\Bin\Debug\Properties\WMAppManifest.xml
+C:\POS\Bingo\Bingo\Bin\Debug\AppManifest.xaml
+C:\POS\Bingo\Bingo\Bin\Debug\Bingo_Debug_AnyCPU.xap
+C:\POS\Bingo\Bingo\obj\Debug\App.g.cs
+C:\POS\Bingo\Bingo\obj\Debug\MainPage.g.cs
+C:\POS\Bingo\Bingo\obj\Debug\Bingo.g.resources
+C:\POS\Bingo\Bingo\obj\Debug\Bingo.Resources.AppResources.resources
+C:\POS\Bingo\Bingo\obj\Debug\Bingo.csproj.GenerateResource.Cache
+C:\POS\Bingo\Bingo\obj\Debug\Bingo.dll
+C:\POS\Bingo\Bingo\obj\Debug\Bingo.pdb
+C:\POS\Bingo\Bingo\obj\Debug\priconfig.xml
+C:\POS\Bingo\Bingo\obj\Debug\priconfig.xml.intermediate
+C:\POS\Bingo\Bingo\obj\Debug\layout.resfiles
+C:\POS\Bingo\Bingo\obj\Debug\layout.resfiles.intermediate
+C:\POS\Bingo\Bingo\obj\Debug\resources.resfiles
+C:\POS\Bingo\Bingo\obj\Debug\resources.resfiles.intermediate
+C:\POS\Bingo\Bingo\obj\Debug\pri.resfiles
+C:\POS\Bingo\Bingo\obj\Debug\pri.resfiles.intermediate
+C:\POS\Bingo\Bingo\obj\Debug\qualifiers.txt
+C:\POS\Bingo\Bingo\obj\Debug\qualifiers.txt.intermediate
+C:\POS\Bingo\Bingo\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\POS\Bingo\Bingo\obj\Debug\ProjectArchitectures.txt
+C:\POS\Bingo\Bingo\obj\Debug\MDILProjectFiles.xml
+C:\POS\Bingo\Bingo\obj\Debug\XapCacheFile.xml
